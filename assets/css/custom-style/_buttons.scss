@@ -37,6 +37,8 @@
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--text-lg);
   box-shadow: inset 0px 1px 0px alpha(var(--color-white), 0.15), 0px 1px 3px alpha(var(--color-primary-darker), 0.25), 0px 2px 6px alpha(var(--color-primary-darker), 0.1), 0px 6px 10px -2px alpha(var(--color-primary-darker), 0.25);
 
   &:hover {
@@ -52,6 +54,8 @@
 .btn--subtle {
   background: var(--color-bg-lighter);
   color: var(--color-contrast-higher);
+  font-family: var(--font-primary);
+  font-size: var(--text-lg);
   box-shadow: inset 0px 1px 0px alpha(var(--color-white), 0.1), 0px 0px 0px 1px alpha(var(--color-black), 0.02), 0px 1px 3px -1px alpha(var(--color-black), 0.2), 0px 3px 6px alpha(var(--color-black), 0.12);
 
   &:hover {
@@ -67,6 +71,8 @@
 .btn--accent {
   background: var(--color-accent);
   color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--text-lg);
   box-shadow: inset 0px 1px 0px alpha(var(--color-white), 0.15), 0px 1px 3px alpha(var(--color-accent-darker), 0.25), 0px 2px 6px alpha(var(--color-accent-darker), 0.1), 0px 6px 10px -2px alpha(var(--color-accent-darker), 0.25);
 
   &:hover {
@@ -87,15 +93,16 @@
 
 // size
 .btn--sm {
-  font-size: 0.8em;
+  font-size: 1.0em;
 }
 
 .btn--md {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .btn--lg {
-  font-size: 1.4em;
+  font-family: var(--font-primary);
+  font-size: var(--text-xl);
 }
 
 // --------------------------------
